@@ -25,6 +25,7 @@
     "code" : "bin/brain-games.js",
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-games.js"
+
   },
   "devDependencies": {
     "eslint": "^8.33.0",
