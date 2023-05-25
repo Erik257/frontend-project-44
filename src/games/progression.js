@@ -12,7 +12,7 @@ const brainProgres = () => {
     const TrueOtvet = String(progress[1]);
     console.log(`Question: ${progress[0]}`);
     const otvet = readlineSync.question('Your answer: ');
-    const attempt = logika(otvet, TrueOtvet, i);
+    const attempt = logika(TrueOtvet, otvet, i);
     if (attempt) {
       break;
     }
