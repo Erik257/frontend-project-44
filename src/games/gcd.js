@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import getRandomNumber from '../randomnumber.js'
+import getRandomNumber from '../randomnumber.js';
 import logic from '../index.js';
 import getDivis from '../fungcd.js';
 
